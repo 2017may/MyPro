@@ -1,0 +1,92 @@
+/**全系车型**/
+
+.type-selectBox{
+    background: url("../img/typeRightBg.jpg") no-repeat right top;
+    height: 144px;
+}
+.type-selectBox .type-select{
+    background: url("../img/typeLeftBg.jpg") no-repeat left top;
+    height: 144px;
+    overflow: hidden;
+}
+.type-select ul{
+    width: 100%;
+    overflow: hidden;
+
+}
+.type-select ul li{
+    float: left;
+    width:33% ;
+    text-align: center;
+}
+.type-select h1{
+    font-size: 18pt;
+    font-weight: normal;
+    line-height: 60px;
+    margin-left: 15px;
+}
+.radioGroup{
+    margin-left:60px;
+    margin-top: 25px;
+}
+.radioGroup input{
+    margin-right: 40px;
+}
+.type-selectCont{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+.contentCar{
+    width: 771px;
+    height: 249px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    padding:40px 30px 15px 30px ;
+    margin-bottom: 20px;
+}
+.contentCar .rightCont{
+    margin-left: 412px;
+    position: relative;
+}
+.contentCar img{
+    position: absolute;
+}
+.contentCar .rightCont>ul{
+    overflow: hidden;
+    float: left;
+    margin: 10px 0;
+}
+.contentCar .rightCont>ul.detail li{
+    line-height: 25px;
+}
+.contentCar .rightCont>ul li{
+    float: left;
+}
+.contentCar .rightCont>ul.smPic li{
+    background: url("../img/icon1.png") no-repeat ;
+    vertical-align: middle;
+    width: 23%;
+    padding-left: 37px;
+    margin-bottom:15px;
+    height: 35px;
+}
+.contentBox2{
+    border: 1px solid #dddddd;
+    overflow: hidden;
+    margin-top: -30px;
+    padding:30px 20px ;
+}
+.allCars{
+    overflow: hidden;
+}
+.allCars li{
+    float: left;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    width: 215px;
+    text-align: center;
+    padding: 10px 0 8px 0;
+    margin-top: 15px;
+}

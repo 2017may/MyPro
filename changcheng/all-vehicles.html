@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all-vehicles</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sliderUi.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all_v.css">
+
+</head>
+<body>
+<header>
+    <div class="bg">
+        <div class="head-box">
+            <a href="#" class="logo"></a>
+            <div class="box-right ">
+                <form action="" class="search">
+                    <a href="#">Global Site</a>
+                    <span>
+                        <input id="" onfocus="textNo()" type="text" placeholder="2016款长城C30">
+                    </span>
+                    <button type="submit"></button>
+                </form>
+                <ul class="rt">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="all-vehicles.html">全系车型</a></li>
+                    <li><a href="all-vehicles.html">轿车</a></li>
+                    <li><a href="all-vehicles.html">皮卡</a></li>
+                    <li ><a href="chooseType.html" onmouseover="keydowm()" onmouseout="keyout()">购车工具</a>
+                        <div class="listBox" style="opacity: 0">
+                            <ul class="menuList">
+                                <li><a href="#">预约试驾</a></li>
+                                <li><a href="#">经销商查询</a></li>
+                                <li><a href="#">贷款购车</a></li>
+                                <li><a href="#">购车计算器</a></li>
+                                <li><a href="#">预约试驾</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li ><a href="#" onmouseover="keydowm2()" onmouseout="keyout2()">车主服务</a>
+                        <div class="listBox2" style="opacity: 0">
+                            <ul class="menuList">
+                                <li><a href="#">预约试驾</a></li>
+                                <li><a href="#">经销商查询</a></li>
+                                <li><a href="#">贷款购车</a></li>
+                                <li><a href="#">购车计算器</a></li>
+                                <li><a href="#">预约试驾</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="interact.html">互动中心</a></li>
+                    <li class="last"><a href="#">关于长城汽车</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section id="all-v">
+    <div class="content">
+        <p>目前您在：
+            <a href="#">首页</a>
+            <b>&gt;</b>
+            <a href="#">全系车型</a>
+        </p>
+        <div class="type-selectBox">
+            <div class="type-select">
+                <h1>车型选择</h1>
+                <ul>
+                    <li>
+                        <span>价格范围</span>
+                        <select name="" id="carPrice">
+                            <option value="">5-7</option>
+                            <option value="">7-9</option>
+                            <option value="">9-11</option>
+                            <option value="">11-13</option>
+                        </select>
+                        万(RMB)
+                    </li>
+                    <li>
+                        <span>油耗范围</span>
+                        <select name="" id="carSoil">
+                            <option value="">5-7</option>
+                            <option value="">7-9</option>
+                            <option value="">9-11</option>
+                            <option value="">11-13</option>
+                        </select>
+                        升
+                    </li>
+                    <li>
+                        <span>排量范围</span>
+                        <select name="" id="carOutput">
+                            <option value="">5-7</option>
+                            <option value="">7-9</option>
+                            <option value="">9-11</option>
+                            <option value="">11-13</option>
+                        </select>
+                        L
+                    </li>
+                </ul>
+                <form action="" class="radioGroup">
+                    全部类型<input type="radio" name="alltype" value="all" checked onclick="change()">
+                    轿车<input type="radio" name="alltype" value="jc" onclick="change()">
+                    皮卡<input type="radio" name="alltype" value="pk" onclick="change()">
+                    其它<input type="radio" name="alltype" value="other" onclick="change()">
+                </form>
+
+
+            </div>
+        </div>
+
+
+        <div class="type-selectCont">
+            <div  class="contentBox2">
+                <h1>在售车型</h1>
+                <ul class="allCars clear">
+                    <li>
+                        <a href="#"><img src="img/c212f0e9b3180924.png" alt=""></a><br>
+                        <span>新风骏5欧洲版</span>
+                        <b>7.58万起5</b>
+                        <p>欧洲品质·经久耐用</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/c212f0e9b3180924.png" alt=""></a><br>
+                        <span>新风骏5欧洲版</span>
+                        <b>7.58万起5</b>
+                        <p>欧洲品质·经久耐用</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/c212f0e9b3180924.png" alt=""></a><br>
+                        <span>新风骏5欧洲版</span>
+                        <b>7.58万起5</b>
+                        <p>欧洲品质·经久耐用</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/c212f0e9b3180924.png" alt=""></a><br>
+                        <span>新风骏5欧洲版</span>
+                        <b>7.58万起5</b>
+                        <p>欧洲品质·经久耐用</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/c212f0e9b3180924.png" alt=""></a><br>
+                        <span>新风骏5欧洲版</span>
+                        <b>7.58万起5</b>
+                        <p>欧洲品质·经久耐用</p>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/c212f0e9b3180924.png" alt=""></a><br>
+                        <span>新风骏5欧洲版</span>
+                        <b>7.58万起5</b>
+                        <p>欧洲品质·经久耐用</p>
+                    </li>
+                </ul>
+            </div>
+            <div style="display: none"  class="contentBox1" >
+                <div class="contentCar">
+                    <img src="img/305c1ab510f791c7.png" alt="">
+                    <div class="rightCont">
+                        <h2>
+                            2016款长城C30
+                            <p>超级配备</p>
+                        </h2>
+                        <p>指导价：6.29万起</p>
+                        <ul class="detail">
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                        </ul>
+                        <ul class="smPic">
+                            <li>
+                                <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li> <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li> <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li>一键启动
+                            </li>
+                            <li>
+                                胎压监测
+                            </li>
+                            <li>
+                                车身电子稳定
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contentCar">
+                    <img src="img/305c1ab510f791c7.png" alt="">
+                    <div class="rightCont">
+                        <h2>
+                            2016款长城C30
+                            <p>超级配备</p>
+                        </h2>
+                        <p>指导价：6.29万起</p>
+                        <ul class="detail">
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                        </ul>
+                        <ul class="smPic">
+                            <li>
+                                <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li> <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li> <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li>一键启动
+                            </li>
+                            <li>
+                                胎压监测
+                            </li>
+                            <li>
+                                车身电子稳定
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div style="display: none"   class="contentBox1-1" >
+                <div class="contentCar">
+                    <img src="img/1e243f403c82879d.png" alt="">
+                    <div class="rightCont">
+                        <h2>
+                            2016款长城C30
+                            <p>超级配备</p>
+                        </h2>
+                        <p>指导价：6.29万起</p>
+                        <ul class="detail">
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                        </ul>
+                        <ul class="smPic">
+                            <li>
+                                <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li> <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li> <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li>一键启动
+                            </li>
+                            <li>
+                                胎压监测
+                            </li>
+                            <li>
+                                车身电子稳定
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contentCar">
+                    <img src="img/1e243f403c82879d.png" alt="">
+                    <div class="rightCont">
+                        <h2>
+                            2016款长城C30
+                            <p>超级配备</p>
+                        </h2>
+                        <p>指导价：6.29万起</p>
+                        <ul class="detail">
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                            <li>有型，让潮流改变观念</li>
+                        </ul>
+                        <ul class="smPic">
+                            <li>
+                                <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li> <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li> <span>
+                                     ESP
+                                <br>
+                                车身电子稳定
+                                </span>
+                            </li>
+                            <li>一键启动
+                            </li>
+                            <li>
+                                胎压监测
+                            </li>
+                            <li>
+                                车身电子稳定
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div style="display: none"  class="contentBox3">
+                <div class="contentCar">
+                    <a href="#"><img src="img/c4b3ac0449d09cf8.png" alt=""></a>
+                    <div class="rightCont">
+                        <h2>行业用车</h2>
+                        <a href="#">了解详情</a>
+                    </div>
+                </div>
+                <div class="contentCar">
+                    <a href="#"><img src="img/3c9d8372736510b7.png" alt=""></a>
+                    <div class="rightCont">
+                        <h2>行业用车</h2>
+                        <a href="#">了解详情</a>
+                    </div>
+                </div>
+
+                <div class="contentCar">
+                    <a href="#"><img src="img/1a5041fe3ab74f22.png" alt=""></a>
+                    <div class="rightCont">
+                        <h2>行业用车</h2>
+                        <a href="#">了解详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="nav_footer">
+        <div class="left_foot lf">
+            <ul>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+            </ul>
+            <p>Copyright 2010-2016 Great Wall Motor. All rights reserved     冀ICP备 05008632 </p>
+        </div>
+        <ul class="rt">
+            <li>
+                <p>官方微博</p>
+                <a href="#"><img src="img/51cfc098652620dc.jpg" alt=""></a>
+            </li>
+            <li>
+                <div>
+                    <b></b>
+                    客服电话
+                </div>
+                <h4>400-666-1990</h4>
+            </li>
+            <li>
+                <a href="#"><img src="img/callcenter.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>哈佛品牌官网</p>
+                    <img src="img/footerLogo_img.jpg" alt=""></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<div class="foot_bottom">
+    <div class="bottom_content">
+        <ul class="rt">
+            <li class="lf"><a href="#" class="carTool1">本地经销商</a></li>
+            <li class="lf"><a href="#" class="carTool2">预约试驾</a></li>
+        </ul>
+        <div class="lf left_side">
+            <a href="#" onclick="closeThis()"><img src="img/ToolOnOff.gif" alt=""></a>
+            <span>购车助手</span>
+            <a href="#">看看哪一款车适合您</a>
+        </div>
+    </div>
+
+
+    <div id="trackTool">
+        <a href="#" onclick="hideThis()"></a>
+    </div>
+</div>
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/index.js"></script>
+<script>
+    var li=$('.listBox');
+    var li2=$('.listBox2');
+    function keydowm(){
+        li.css({opacity:1});
+    }
+    function keyout(){
+        li.css({opacity:0});
+    }
+    function keydowm2(){
+        li2.css({opacity:1});
+    }
+    function keyout2(){
+        li2.css({opacity:0});
+    }
+    function closeThis(){
+        $(".bottom_content").hide();
+        $(".foot_bottom").css("background","url()");
+    }
+    function hideThis(){
+        $(".bottom_content").show();
+        $(this).hide();
+        $(".foot_bottom").css("background","url(img/toolNewBg.jpg)");
+    }
+</script>
+<script>
+    function change(){
+        var inputs=$(".radioGroup input");
+        for(var i=0;i<inputs.length;i++){
+            if(inputs[i].checked){
+                var val=inputs[i].value;
+                switch (val){
+                    case 'all':
+                        $(".contentBox2").show();
+                        $(".contentBox1").hide();
+                        $(".contentBox1-1").hide();
+                        $(".contentBox3").hide();
+                        break;
+                    case 'jc':
+                        $(".contentBox1").show();
+                        $(".contentBox2").hide();
+                        $(".contentBox1-1").hide();
+                        $(".contentBox3").hide();
+                        break;
+                    case 'pk':
+                        $(".contentBox1-1").show();
+                        $(".contentBox1").hide();
+                        $(".contentBox2").hide();
+                        $(".contentBox3").hide();
+                        break;
+                    case 'other':
+                        $(".contentBox3").show();
+                        $(".contentBox1").hide();
+                        $(".contentBox1-1").hide();
+                        $(".contentBox2").hide();
+                        break;
+                }
+            }
+        }
+    }
+
+</script>
+</body>
+</html>

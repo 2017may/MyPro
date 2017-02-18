@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预约试驾</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/choose.css">
+
+</head>
+<body>
+<header>
+    <div class="bg">
+        <div class="head-box">
+            <a href="#" class="logo"></a>
+            <div class="box-right ">
+                <form action="" class="search">
+                    <a href="#">Global Site</a>
+                    <span>
+                        <input type="text" placeholder="2016款长城C30">
+                    </span>
+                    <button type="submit"></button>
+                </form>
+                <ul class="rt">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="all-vehicles.html">全系车型</a></li>
+                    <li><a href="all-vehicles.html">轿车</a></li>
+                    <li><a href="all-vehicles.html">皮卡</a></li>
+                    <li onmouseover="keydowm()" onmouseout="keyout()"><a href="#">购车工具</a>
+                        <div class="listBox" style="opacity: 0">
+                            <ul class="menuList">
+                                <li><a href="#">预约试驾</a></li>
+                                <li><a href="#">经销商查询</a></li>
+                                <li><a href="#">贷款购车</a></li>
+                                <li><a href="#">购车计算器</a></li>
+                                <li><a href="#">预约试驾</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li onmouseover="keydowm2()" onmouseout="keyout2()"><a href="#">车主服务</a>
+                        <div class="listBox2" style="opacity: 0">
+                            <ul class="menuList">
+                                <li><a href="#">预约试驾</a></li>
+                                <li><a href="#">经销商查询</a></li>
+                                <li><a href="#">贷款购车</a></li>
+                                <li><a href="#">购车计算器</a></li>
+                                <li><a href="#">预约试驾</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="interact.html">互动中心</a></li>
+                    <li class="last"><a href="#">关于长城汽车</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="order_prev">
+    <div class="content">
+        <p>目前您在：
+            <a href="#">首页</a>
+            <b>&gt;</b>
+            <a href="#">购车工具</a>
+            <b>&gt;</b>
+            <a href="#">预约试驾</a>
+        </p>
+        <div class="chooseCar">
+            <p><i>1</i>  选择车型</p>
+            <ul class="chooseLeft">
+                <li>
+                    <a href="#">
+                        <img src="img/2b58443c29119d9f.png" alt="">
+                        <p>新骏丰5欧洲版   7.58万起</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/2b58443c29119d9f.png" alt="">
+                        <p>新骏丰5欧洲版   7.58万起</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/2b58443c29119d9f.png" alt="">
+                        <p>新骏丰5欧洲版   7.58万起</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/2b58443c29119d9f.png" alt="">
+                        <p>新骏丰5欧洲版   7.58万起</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/2b58443c29119d9f.png" alt="">
+                        <p>新骏丰5欧洲版   7.58万起</p>
+                    </a>
+                </li>
+
+
+
+            </ul>
+
+            <div class="chooseRight">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td colspan="2">
+                                <p><i>2</i>  选择经销商</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>省份</td>
+                            <td>
+                                <select name="" id="province">
+                                    <option value="js">江苏省</option>
+                                    <option value="js">安徽省</option>
+                                    <option value="js">贵州省</option>
+                                    <option value="js">河南省</option>
+                                    <option value="js">湖北省</option>
+                                    <option value="js">吉林省</option>
+                                    <option value="js">黑龙江省</option>
+                                    <option value="js">海南省</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>专营店</td>
+                            <td>
+                                <select name="" id="shops">
+                                    <option value="js">请选择</option>
+                                    <option value="js">常熟专营店</option>
+                                    <option value="js">常熟专营店</option>
+                                    <option value="js">苏州专营店</option>
+                                    <option value="js">苏州专营店</option>
+                                    <option value="js">苏州专营店</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>详细信息</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p><i>3</i>  个人信息</p></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>姓名</td>
+                            <td><input type="text" required></td>
+                        </tr>
+                        <tr>
+                            <td>手机</td>
+                            <td><input type="text" required></td>
+                        </tr>
+                        <tr>
+                            <td>邮箱</td>
+                            <td><input type="text" ></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">确认提交</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</section>
+
+<footer>
+    <div class="nav_footer">
+        <div class="left_foot lf">
+            <ul>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+                <li><a href="#">信息公开</a></li>
+            </ul>
+            <p>Copyright 2010-2016 Great Wall Motor. All rights reserved     冀ICP备 05008632 </p>
+        </div>
+        <ul class="rt">
+            <li>
+                <p>官方微博</p>
+                <a href="#"><img src="img/51cfc098652620dc.jpg" alt=""></a>
+            </li>
+            <li>
+                <div>
+                    <b></b>
+                    客服电话
+                </div>
+                <h4>400-666-1990</h4>
+            </li>
+            <li>
+                <a href="#"><img src="img/callcenter.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>哈佛品牌官网</p>
+                    <img src="img/footerLogo_img.jpg" alt=""></a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<div class="foot_bottom">
+    <div class="bottom_content">
+        <ul class="rt">
+            <li class="lf"><a href="#" class="carTool1">本地经销商</a></li>
+            <li class="lf"><a href="#" class="carTool2">预约试驾</a></li>
+        </ul>
+        <div class="lf left_side">
+            <a href="#" onclick="closeThis()"><img src="img/ToolOnOff.gif" alt=""></a>
+            <span>购车助手</span>
+            <a href="#">看看哪一款车适合您</a>
+        </div>
+    </div>
+
+
+    <div id="trackTool">
+        <a href="#" onclick="hideThis()"></a>
+    </div>
+</div>
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
+<script src="js/index.js"></script>
+<script>
+    var li=$('.listBox');
+    var li2=$('.listBox2');
+    function keydowm(){
+        li.css({opacity:1});
+    }
+    function keyout(){
+        li.css({opacity:0});
+    }
+    function keydowm2(){
+        li2.css({opacity:1});
+    }
+    function keyout2(){
+        li2.css({opacity:0});
+    }
+    function closeThis(){
+        $(".bottom_content").hide();
+        $(".foot_bottom").css("background","url()");
+    }
+    function hideThis(){
+        $(".bottom_content").show();
+        $(this).hide();
+        $(".foot_bottom").css("background","url(img/toolNewBg.jpg)");
+    }
+</script>
+</body>
+</html>

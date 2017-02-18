@@ -1,0 +1,52 @@
+.chooseCar{
+    border: 1px solid #dddddd;
+    padding: 30px;
+    overflow: hidden;
+}
+.chooseCar>p{
+    font-size: 22pt;
+    color: #333;
+}
+.chooseCar p>i{
+    color: #cd0a0a;
+    font-size: 30pt;
+    font-weight: bold;
+}
+.chooseLeft li{
+    float: left;
+    border: 2px solid #ddd;
+    /*border: ;*/
+    margin: 5px 5px 5px 0;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.chooseLeft li:hover{
+    border: 2px solid red;
+}
+.chooseLeft{
+    overflow: hidden;
+    width: 600px;
+    float: left;
+}
+.chooseRight{
+    float: right;
+    width: 320px;
+    margin-top: -40px;
+}
+.chooseRight table p{
+    font-size: 22pt;
+    color: #333;
+}
+.chooseRight table tr{
+    line-height: 35px;
+}
+.chooseRight table input{
+    border: 1px solid #ddd;
+    width: 160px;
+    height: 20px;
+}
+.chooseRight table tr td:first-child{
+    text-align: right;
+    padding-right:10px ;
+}

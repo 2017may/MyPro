@@ -1,0 +1,66 @@
+#interactCent .content ul{
+    width: 174px;
+    background: url("../img/nav2_li_bg.jpg") repeat-y left top;
+    float: left;
+
+}
+#interactCent{
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+#interactCent .content ul li{
+    padding: 8px 33px;
+    border-bottom:1px solid #ddd ;
+
+}
+#interactCent .content ul li.current{
+    background: url("../img/sidebar_redbg.jpg");
+    line-height: 23px;
+
+}
+#interactCent .content ul li.current a{
+    color: #fff;
+}
+.download{
+    float: left;
+    width: 780px;
+    margin-left: 20px;
+}
+.download .title{
+    height: 75px;
+    background: url("../img/about_gwm_yanf.jpg") no-repeat;
+    border-bottom: 2px solid red;
+}
+.download .title h2{
+    font-size: 22px;
+    font-weight: normal;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.codes{
+    padding: 20px;
+    overflow: hidden;
+}
+.code_left{
+    width: 160px;
+    text-align: center;
+    margin-right: 20px;
+}
+.code_right b{
+    font-size: 18px;
+    font-weight: normal;
+    color: red;
+    display: inline-block;
+    margin: 8px 0;
+}
+.code_right p{
+    line-height: 20px;
+}
+.code_right a{
+    display: inline-block;
+    padding: 8px 15px;
+    background: #0798eb;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 40px;
+}

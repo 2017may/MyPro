@@ -1,0 +1,31 @@
+body{
+    font:12px 'microsoft yahei','arial';
+    color:#666;
+    margin: 0;
+    padding: 0;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+input{
+    border: none;
+}
+.lf{
+ float: left;
+}
+.rt{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+nav,footer{
+    padding:0 80px 0 80px;
+}
