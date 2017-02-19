@@ -1,0 +1,25 @@
+<div data-role="page" ng-controller="detailCtrl">
+    <div data-role="header">
+        <a href="index.html">开饭啦</a>
+        <h1>主菜单</h1>
+    </div>
+    <div class="ui-content">
+        <div class="ui-body ui-body-a ui-corner-all main_body">
+            <img ng-src="img/{{dish.img_lg}}" alt="">
+            <p>主要原料：{{dish.material}}</p>
+            <p>{{dish.detail}}</p>
+        </div>
+        <a href="#" data-role="" class="ui-btn ui-btn-inline ">我要订餐</a>
+        <a href="#" data-role="" class="ui-btn ui-btn-inline ">我要看看</a>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" class="footr_navbar">
+            <ul>
+                <li><a href="#" data-icon="home"></a></li>
+                <li><a href="#" data-icon="user"></a></li>
+                <li><a href="#" data-icon="gear"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div data-role="page" ng-controller="mainCtrl">
+    <div data-role="header">
+        <a href="index.html">开饭啦</a>
+        <h1>主菜单</h1>
+    </div>
+    <div class="ui-content">
+        <input type="text" placeholder="搜索菜品名称和原料...">
+            <ul data-role="listview"  data-inset="true" id="dishlist">
+                <li ng-repeat="d in dishList"><a href="#" ng-click="jumpWithData('detail.html','did',d.did)">
+                    <img ng-src="img/{{d.img_sm}}" alt="">
+                    <h3>{{d.name}}</h3>
+                    <p>{{d.material}}</p>
+                    <hr>
+                    <p>{{d.price | currency:'￥'}}</p>
+                </a></li>
+            </ul>
+        <a ng-show="isMore" href="#" data-role="button" ng-click="addMore()">加载更多</a>
+        <div ng-hide="isMore" class="alert">
+            <p>没有更多数据了</p>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed"></div>
+</div>

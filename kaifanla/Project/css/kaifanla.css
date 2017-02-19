@@ -1,0 +1,25 @@
+.logo{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 100%;
+    margin-top: -100px;
+    margin-left:-240px ;
+}
+.logo h1{
+    font-size: 5rem;
+    margin: 0;
+    font-family: 'SimHei';
+    width:481px;
+    text-align: center;
+    color:#005599;
+}
+#dishlist img{
+    left:10px;
+    top: 28px;
+}
+.main_body{
+    text-align: center;
+}
+.footr_navbar{
+}

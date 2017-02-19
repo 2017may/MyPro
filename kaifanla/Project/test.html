@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    if(!('indexOf' in Array.prototype)){
+        Array.prototype.indexOf=function (kword,fromi){
+            if(fromi===undefined){fromi=0;}
+            for(;fromi<this.length;fromi++){
+                if (this[fromi]==kword){
+                    return fromi;
+                }
+            }return -1;
+        }
+    }
+    var arr=["no","zuo","no","die"];
+    document.write(arr.indexOf("no"));
+    document.write("<br>");
+    document.write(arr.indexOf("no",1));
+
+</script>
+</body>
+</html>
